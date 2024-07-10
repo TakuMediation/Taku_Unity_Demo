@@ -1,6 +1,6 @@
 # Taku-Unity-Demo
 
-## Requirements
+## SDK Requirements
 
 ### Unity
 
@@ -18,6 +18,11 @@ Operating Systems Version 4.1 (API Level 16) and up. Be sure to:
 
 - iOS 9.0 and up
 - Xcode 9.3 and up
+
+## Demo Environment
+
+* Unity 2022.1.18f1
+* JDK 8
 
 ## Integration instructions
 
