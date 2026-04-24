@@ -387,7 +387,8 @@ public static bool isDebug = false;
             if(PLUGIN_TYPE == 2) {
                 return new string[] { "Overseas" };
             }
-            return new string[] { "ChinaMainland", "Overseas" };
+            // return new string[] { "ChinaMainland", "Overseas" };
+            return new string[] { "ChinaMainland" };
         }
 
         public static string getRegionIntegrateTip()

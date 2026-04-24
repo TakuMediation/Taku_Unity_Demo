@@ -1,0 +1,5 @@
+/Users/taku-0099/yanyan/taku_unity_demo/Taku_Unity_Demo/.utmp/RelWithDebInfo/59174q5l/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/taku-0099/yanyan/taku_unity_demo/Taku_Unity_Demo/.utmp/RelWithDebInfo/59174q5l/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/taku-0099/yanyan/taku_unity_demo/Taku_Unity_Demo/.utmp/RelWithDebInfo/59174q5l/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/taku-0099/yanyan/taku_unity_demo/Taku_Unity_Demo/.utmp/RelWithDebInfo/59174q5l/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/taku-0099/yanyan/taku_unity_demo/Taku_Unity_Demo/.utmp/RelWithDebInfo/59174q5l/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
