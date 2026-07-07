@@ -19,6 +19,9 @@ dependencyResolutionManagement {
 // Android Resolver Repos Start
         def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
         maven {
+            url "https://jfrog.takuad.com/artifactory/china_sdk" // Assets/AnyThinkPlugin/AnyThinkAds/Plugins/Android/China/Editor/Dependencies.xml:5
+        }
+        maven {
             url "https://jfrog.anythinktech.com/artifactory/debugger" // Assets/Plugins/Android/Editor/Dependencies.xml:5
         }
         maven {

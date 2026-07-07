@@ -1,0 +1,6 @@
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="com.anythink.sdk:adapter-taku-sdm:6.5.72.1.0"/>
+        <androidPackage spec="com.smartdigimkttech.sdk:sdm-sdk-cn:6.5.72"/>
+    </androidPackages>
+</dependencies>

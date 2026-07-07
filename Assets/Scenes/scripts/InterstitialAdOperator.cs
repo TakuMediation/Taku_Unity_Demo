@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -22,6 +22,10 @@ public class InterstitialAdOperator : BaseAdOperator
     static string showingScenario = "";
 
 #elif UNITY_IOS || UNITY_IPHONE
+    static string mPlacementId_interstitial_all = "b5bacad26a752a";
+    static string showingScenario = "f5e549727efc49";
+
+#else // UNITY_EDITOR or other platforms
     static string mPlacementId_interstitial_all = "b5bacad26a752a";
     static string showingScenario = "f5e549727efc49";
 

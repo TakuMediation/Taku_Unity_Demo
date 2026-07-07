@@ -17,6 +17,10 @@ public class AutoInterstitialAdOperator : BaseAdOperator{
     static string mPlacementId_interstitial_all = "b5bacad26a752a";
     static string showingScenario = "f5e549727efc49";
 
+#else // UNITY_EDITOR or other platforms
+    static string mPlacementId_interstitial_all = "b5bacad26a752a";
+    static string showingScenario = "f5e549727efc49";
+
 #endif
 
 

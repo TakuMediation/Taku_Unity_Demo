@@ -16,6 +16,10 @@ public class AutoRewardVideoAdOperator : BaseAdOperator {
     static string mPlacementId_rewardvideo_all = "b5b44a0f115321";//"b5b44a0f115321";
     static string showingScenario = "f5e54970dc84e6";
 
+#else // UNITY_EDITOR or other platforms
+    static string mPlacementId_rewardvideo_all = "b5b44a0f115321";
+    static string showingScenario = "f5e54970dc84e6";
+
 #endif
 
     private static readonly AutoRewardVideoAdOperator instance = new AutoRewardVideoAdOperator();

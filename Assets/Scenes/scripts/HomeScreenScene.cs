@@ -15,6 +15,9 @@ public class HomeScreenScene : MonoBehaviour, ATSDKInitListener
 #elif UNITY_IOS || UNITY_IPHONE
     private const string SdkAppId = "a5b0e8491845b3";
     private const string SdkKey = "7eae0567827cfe2b22874061763f30c9";
+#else // UNITY_EDITOR or other platforms
+    private const string SdkAppId = "a5b0e8491845b3";
+    private const string SdkKey = "7eae0567827cfe2b22874061763f30c9";
 #endif
 
     public Button showInterstitialButton;

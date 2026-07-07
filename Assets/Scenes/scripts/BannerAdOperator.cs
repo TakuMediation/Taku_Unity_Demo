@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -20,6 +20,10 @@ public class BannerAdOperator : BaseAdOperator
 #elif UNITY_IOS || UNITY_IPHONE
 	static string mPlacementId_banner_all = "b5bacaccb61c29";
     //static string mPlacementId_banner_all = "b5bacaccb61c29";
+    static string showingScenario = "";
+
+#else // UNITY_EDITOR or other platforms
+	static string mPlacementId_banner_all = "b5bacaccb61c29";
     static string showingScenario = "";
 #endif
 

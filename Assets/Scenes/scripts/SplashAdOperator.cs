@@ -12,6 +12,8 @@ public class SplashAdOperator : BaseAdOperator
     private const string SPLASH_PLACEMENT_ID = "b62b0272f8762f";   
 #elif UNITY_IOS || UNITY_IPHONE
 	private static string SPLASH_PLACEMENT_ID = "b5c22f0e5cc7a0";
+#else // UNITY_EDITOR or other platforms
+	private static string SPLASH_PLACEMENT_ID = "b5c22f0e5cc7a0";
 #endif
 
     private static readonly SplashAdOperator instance = new SplashAdOperator();
@@ -51,7 +53,7 @@ public class SplashAdOperator : BaseAdOperator
     {
         if (ATSplashAd.Instance.hasSplashAdReady(SPLASH_PLACEMENT_ID))
         {
-            ATSplashAd.Instance.showSplashAd(SPLASH_PLACEMENT_ID, new Dictionary<string, object>());
+            ATSplashAd.Instance.showSplashAd(SPLASH_PLACEMENT_ID, new Dictionary<string, string>());
         }
         else
         {

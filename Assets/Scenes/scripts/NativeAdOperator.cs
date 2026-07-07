@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,6 +17,10 @@ public class NativeAdOperator : BaseAdOperator
 #elif UNITY_IOS || UNITY_IPHONE
     static string mPlacementId_native_all = "b5b0f5663c6e4a";//gdt template
     // static string mPlacementId_native_all = "b5e4613e50cbf2";
+    static string showingScenario = "";
+
+#else // UNITY_EDITOR or other platforms
+    static string mPlacementId_native_all = "b5b0f5663c6e4a";
     static string showingScenario = "";
 #endif  
 

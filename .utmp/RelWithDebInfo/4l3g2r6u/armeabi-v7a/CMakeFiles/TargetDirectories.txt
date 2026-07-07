@@ -1,0 +1,5 @@
+/Users/toponsdkdeveloper/Desktop/Taku_Unity_Demo/.utmp/RelWithDebInfo/4l3g2r6u/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/toponsdkdeveloper/Desktop/Taku_Unity_Demo/.utmp/RelWithDebInfo/4l3g2r6u/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/toponsdkdeveloper/Desktop/Taku_Unity_Demo/.utmp/RelWithDebInfo/4l3g2r6u/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/toponsdkdeveloper/Desktop/Taku_Unity_Demo/.utmp/RelWithDebInfo/4l3g2r6u/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/toponsdkdeveloper/Desktop/Taku_Unity_Demo/.utmp/RelWithDebInfo/4l3g2r6u/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
